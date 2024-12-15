@@ -1,0 +1,42 @@
+      Our Team
+      
+      
+        Vitae congue mauris rhoncus aenean vel elit scelerisque. Consequat nisl
+        vel pretium lectus quam id leo in vitae. Dictum sit amet justo donec
+        enim diam vulputate. Sociis natoque penatibus et magnis dis parturient.
+        Molestie ac feugiat sed lectus vestibulum mattis.
+
+        learn more
+
+
+
+
+:root {
+    --primary-color: #8da3c8;
+    --secondary-color: #cfd8e9;
+    --dark-color: #2c2c2d;
+    --text-color: #484955;
+    --text-muted: #555;
+    --hover-color: #81a7ee;
+    --light-color: #ffffff;
+}
+
+
+    Terri ​Stojceski
+Founder, Design Director
+
+Kelly Savala
+MSW, LCSW, RPT
+
+ Shane Reynolds
+  PsyD, PSYC, Postdoc
+
+
+   Lindsay Watson
+    PsyD, LCP
+
+     Chung Schlueter
+      MA, LPC, CEDS
+
+       David Bell
+        MSW, LCSW, LAC

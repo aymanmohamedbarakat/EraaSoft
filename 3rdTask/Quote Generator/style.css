@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geist", serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f3ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  height: 85vh;
+  background-color: #fffffc;
+  border-radius: 25px;
+}
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-box h1 {
+  width: 100%;
+  height: 100%;
+  max-width: fit-content;
+  font-family: Boogaloo;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 95.12px;
+  text-align: center;
+}
+
+.main-box h1::first-letter {
+  color: #f4c123;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px;
+}
+
+.quote-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-left: 45px;
+  width: 53%;
+  height: 40vh;
+  background-color: #f6f3ef;
+  border-radius: 25px;
+  gap: 10px;
+}
+
+.quote-box-img {
+  position: absolute;
+  top: -30px;
+  left: 22px;
+}
+
+.quote-content {
+  width: 100%;
+  line-height: 1.5;
+  background-color: #fffffc;
+  padding: 35px;
+  border-radius: 5px;
+}
+
+.text-content {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.quote-content p {
+  font-family: Barlow;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.copy {
+  position: relative;
+  bottom: 75px;
+  padding-right: 14px;
+  cursor: pointer;
+}
+.guidance_left-arrow {
+  position: absolute;
+  top: 75%;
+  right: 55px;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .quote-box {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .main-box h1 {
+    font-size: 60px;
+  }
+}

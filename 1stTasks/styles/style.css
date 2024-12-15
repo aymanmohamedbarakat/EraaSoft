@@ -1,0 +1,12 @@
+table {
+    border: 2px solid #000000;
+    font-family: arial, sans-serif;
+    width: 100%;
+  }
+  
+  td, th , tr {
+    border: 2px solid #5a5959;
+    text-align: left;
+    padding: 8px;
+  }
+  
