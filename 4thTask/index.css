@@ -44,9 +44,9 @@ header .iconDiv {
 nav {
   display: flex;
   position: sticky;
-  top: 0; 
+  top: 0;
   gap: 48px;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 .actionsDiv {
@@ -70,7 +70,7 @@ nav {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #25292C;
+  color: #25292c;
 }
 
 nav a {
@@ -82,7 +82,7 @@ nav a {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #25292C;
+  color: #25292c;
 }
 
 .reg {
@@ -90,9 +90,9 @@ nav a {
   height: 40px;
   padding: 10px 18px;
   border-radius: 6px;
-  border: 1px solid #1576D6;
+  border: 1px solid #1576d6;
   background-color: transparent;
-  color: #1576D6;
+  color: #1576d6;
   font-weight: 500;
 }
 
@@ -106,7 +106,7 @@ nav a {
   font-family: Barlow;
   line-height: 20px;
   letter-spacing: 0.02em;
-  color: #FFFFFC;
+  color: #fffffc;
   font-weight: 500;
 }
 
@@ -144,7 +144,7 @@ nav a {
 
 .bg-banner .text {
   width: 55%;
-  color: #FFFFFC;
+  color: #fffffc;
   font-weight: 600;
   text-align: center;
   z-index: 2;
@@ -156,7 +156,7 @@ nav a {
   font-weight: 700;
   line-height: 38.4px;
   text-align: center;
-  color: #FFFFFC;
+  color: #fffffc;
 }
 
 .bg-banner .text p {
@@ -166,7 +166,7 @@ nav a {
   line-height: 28px;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #FFFFFC;
+  color: #fffffc;
 }
 
 /*---------------------------
@@ -225,7 +225,7 @@ Responsive Styles for header
     font-size: 22px;
     font-weight: 700;
     line-height: 26.4px;
-    color: #FFFFFC;
+    color: #fffffc;
   }
   .bg-banner .text p {
     width: 76%;
@@ -234,7 +234,7 @@ Responsive Styles for header
     font-weight: 400;
     line-height: 22.4px;
     letter-spacing: 0.02em;
-    color: #FFFFFC;
+    color: #fffffc;
   }
 }
 
@@ -293,7 +293,7 @@ Responsive Styles for header
 .booking {
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
   width: 100%;
   background-color: #fffffc;
   box-shadow: 0px 4px 37px 0px #00000026;
@@ -309,7 +309,7 @@ Responsive Styles for header
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.02em;
-  color: #FFFFFC;
+  color: #fffffc;
   padding: 12px 18px;
   border: none;
   border-radius: 6px;
@@ -433,7 +433,7 @@ Responsive Styles for warning
   font-size: 28px;
   font-weight: 600;
   line-height: 45px;
-  color: #25292C;
+  color: #25292c;
 }
 .testimonal-container {
   display: flex;
@@ -463,7 +463,7 @@ Responsive Styles for warning
   font-size: 18px;
   font-weight: 500;
   line-height: 21.6px;
-  color: #25292C;
+  color: #25292c;
 }
 
 .testimonal-content p {
@@ -471,7 +471,7 @@ Responsive Styles for warning
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
-  color:#25292C ;  
+  color: #25292c;
   max-width: 230px;
   margin-top: 14px;
 }
@@ -526,15 +526,15 @@ Responsive Styles for testimonaling
   max-width: 610px;
 }
 
-.header-vacation h1{
+.header-vacation h1 {
   font-family: Barlow;
   font-size: 28px;
   font-weight: 600;
   line-height: 33.6px;
-  color: #25292C;
+  color: #25292c;
 }
 
-.header-vacation p{
+.header-vacation p {
   font-family: Barlow;
   font-size: 16px;
   font-weight: 400;
@@ -580,13 +580,12 @@ Responsive Styles for testimonaling
   font-family: Barlow;
 }
 
-
 .vacation-content h2 {
   font-family: Barlow;
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
-  color: #25292C;
+  color: #25292c;
 }
 
 .vacation-content p {
@@ -595,7 +594,7 @@ Responsive Styles for testimonaling
   font-weight: 400;
   line-height: 16.8px;
   letter-spacing: 0.02em;
-  color: #25292C;
+  color: #25292c;
 }
 
 /*---------------------------
@@ -621,7 +620,6 @@ Responsive Styles for vacation
   .vacation-image-container {
     height: auto;
   }
-
 }
 
 /****************************
@@ -637,7 +635,7 @@ Responsive Styles for vacation
   font-size: 28px;
   font-weight: 600;
   line-height: 33.6px;
-  color: #25292C;
+  color: #25292c;
 }
 
 .trip-containers {
@@ -734,7 +732,7 @@ Responsive Styles for trip
   font-size: 28px;
   font-weight: 600;
   line-height: 33.6px;
-  color: #25292C;
+  color: #25292c;
 }
 .hotel-containers {
   display: flex;
@@ -777,7 +775,7 @@ Responsive Styles for trip
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
-  color: #25292C;
+  color: #25292c;
 }
 
 .hotel-content p {
@@ -786,7 +784,7 @@ Responsive Styles for trip
   font-weight: 400;
   line-height: 22.4px;
   letter-spacing: 0.02em;
-  color: #25292C;
+  color: #25292c;
 }
 
 /*---------------------------
@@ -836,15 +834,15 @@ Responsive Styles for trip
   font-size: 28px;
   font-weight: 600;
   line-height: 45px;
-  color: #25292C;
+  color: #25292c;
 }
-.header-road-map p{
+.header-road-map p {
   font-family: Barlow;
   font-size: 28px;
   font-weight: 400;
   line-height: 28.13px;
 
-  color: #25292C;
+  color: #25292c;
 }
 .road-map-containers {
   display: flex;
@@ -855,7 +853,7 @@ Responsive Styles for trip
 }
 
 .left-section {
-  flex: 1.5;  
+  flex: 1.5;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -864,7 +862,7 @@ Responsive Styles for trip
 }
 
 .middle-section {
-  flex: 2; 
+  flex: 2;
   position: relative;
   border-radius: 12px;
   overflow: hidden;
@@ -872,7 +870,7 @@ Responsive Styles for trip
 }
 
 .right-section {
-  flex: 2.5;  
+  flex: 2.5;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -979,14 +977,13 @@ Responsive Styles for trip
   position: absolute;
   bottom: 20px;
   left: 20px;
-  color: #FFFFFC;
+  color: #fffffc;
   font-family: Barlow;
   font-size: 28px;
   font-weight: 500;
   line-height: 30px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
-
 
 /*---------------------------
 Responsive Styles for trip-road-map
@@ -1002,12 +999,12 @@ Responsive Styles for trip-road-map
     flex-direction: row;
     height: 200px;
     gap: 20px;
-    width: 100%; 
+    width: 100%;
   }
 
   .middle-section {
-    width: 100%; 
-    aspect-ratio: 16/9; 
+    width: 100%;
+    aspect-ratio: 16/9;
   }
 
   .left-container {
@@ -1045,63 +1042,68 @@ Responsive Styles for trip-road-map
   }
 }
 
+/****************************
+  ------FOOTPRINT SECTION--------
+  ****************************/
 
-.footprint{
+.footprint {
   margin-top: 60px;
 }
 
-.footprint-containers{
+.footprint-containers {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 91px;
 }
 
-.footprint-container{
+.footprint-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
-
 }
 
-.footprint-content{
+.footprint-content {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.footprint h1{
+.footprint h1 {
   font-family: Barlow;
   font-size: 28px;
   font-weight: 600;
   line-height: 45px;
-  color: #25292C;
+  color: #25292c;
   text-transform: capitalize;
 }
-.footprint-content h2{
+.footprint-content h2 {
   font-family: Barlow;
   font-size: 37.66px;
   font-weight: 700;
   line-height: 45.19px;
 
-  color: #25292C;
+  color: #25292c;
 }
-.footprint-content p{
+.footprint-content p {
   font-family: Barlow;
   font-size: 14.65px;
   font-weight: 400;
   line-height: 17.58px;
-  color: #25292C;
+  color: #25292c;
 }
-@media (max-width: 992px) {
 
-  .footprint{
+/*---------------------------
+Responsive Styles for footprint
+---------------------------*/
+@media (max-width: 992px) {
+  .footprint {
     text-align: center;
   }
 
-  .footprint-containers{
+  .footprint-containers {
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -1109,10 +1111,11 @@ Responsive Styles for trip-road-map
   }
 }
 
+/****************************
+  ------ARTICLE SECTION--------
+  ****************************/
 
-
-
-.bg-container{
+.bg-container {
   background-image: url("./images/beach.jpeg");
   background-size: cover;
   background-position: center;
@@ -1126,46 +1129,50 @@ Responsive Styles for trip-road-map
   align-items: center;
 }
 
-.bg-container::before{
+.bg-container::before {
   content: "";
   position: absolute;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   width: 100%;
   height: 100%;
   opacity: 50%;
   border-radius: 8px;
 }
 
-.bg-container img{
+.bg-container img {
   position: absolute;
   width: 719.71px;
   height: 407px;
   top: -37px;
-  right:  0px;
+  right: 0px;
   overflow: hidden;
   object-fit: cover;
   transform: rotate(-15deg);
 }
 
-.article-content{
+.article-content {
   width: 100%;
   max-width: 580px;
   padding: 69px 64px;
   z-index: 1;
 }
-.article-content h2{
+.article-content h2 {
   font-family: Barlow;
   font-size: 28px;
   font-weight: 600;
   line-height: 39.2px;
-  color: #FFFFFC;
+  color: #fffffc;
 }
-.article-content button{
+.article-content button {
   width: 181px;
   height: 44px;
   padding: 12px 18px;
   border: none;
-  background-color:#1576D6;
+  background-color: #1576d6;
   gap: 10px;
   border-radius: 6px;
   font-family: Barlow;
@@ -1174,33 +1181,33 @@ Responsive Styles for trip-road-map
   line-height: 20px;
   letter-spacing: 0.02em;
 
-  color: #FFFFFC;
+  color: #fffffc;
   margin-top: 30px;
 }
 
-
-
-.article-content h2{
+.article-content h2 {
   font-family: Barlow;
   font-size: 28px;
   font-weight: 600;
   line-height: 39.2px;
 
-  color: #FFFFFC;
-  
+  color: #fffffc;
 }
 
-@media (max-width: 992px) {
+/*---------------------------
+Responsive Styles for article
+---------------------------*/
 
-  article{
+@media (max-width: 992px) {
+  article {
     margin: 20px 16px;
   }
 
-  .bg-container{
+  .bg-container {
     width: 100%;
     height: 212px;
   }
-  .bg-container img{
+  .bg-container img {
     display: none;
   }
 
@@ -1208,15 +1215,17 @@ Responsive Styles for trip-road-map
     padding: 12px;
   }
 
-  .article-content h2{
+  .article-content h2 {
     font-family: Barlow;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
-
-    
   }
 }
+
+/****************************
+  ------FOOTER SECTION--------
+  ****************************/
 
 /* .footer-header {
   font-family: Barlow;
