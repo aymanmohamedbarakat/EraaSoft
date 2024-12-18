@@ -44,9 +44,9 @@ header .iconDiv {
 nav {
   display: flex;
   position: sticky;
-  top: 0; /* Ensure nav sticks to the top */
+  top: 0; 
   gap: 48px;
-  z-index: 1000; /* Ensure nav stays above other elements */
+  z-index: 1000; 
 }
 
 .actionsDiv {
@@ -70,6 +70,7 @@ nav {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  color: #25292C;
 }
 
 nav a {
@@ -81,27 +82,31 @@ nav a {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  color: #25292C;
 }
 
 .reg {
   width: 94px;
   height: 40px;
-  padding: 10px 18px 10px 18px;
+  padding: 10px 18px;
   border-radius: 6px;
-  border: 1px solid #1576d6;
+  border: 1px solid #1576D6;
   background-color: transparent;
-  color: #1576d6;
+  color: #1576D6;
   font-weight: 500;
 }
 
 .sign {
   width: 94px;
   height: 40px;
-  padding: 10px 18px 10px 18px;
+  padding: 10px 18px;
   border-radius: 6px;
   border: 1px solid #1576d6;
   background-color: #1576d6;
-  color: white;
+  font-family: Barlow;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #FFFFFC;
   font-weight: 500;
 }
 
@@ -139,7 +144,7 @@ nav a {
 
 .bg-banner .text {
   width: 55%;
-  color: white;
+  color: #FFFFFC;
   font-weight: 600;
   text-align: center;
   z-index: 2;
@@ -151,8 +156,7 @@ nav a {
   font-weight: 700;
   line-height: 38.4px;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  color: #FFFFFC;
 }
 
 .bg-banner .text p {
@@ -162,8 +166,7 @@ nav a {
   line-height: 28px;
   letter-spacing: 0.02em;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  color: #FFFFFC;
 }
 
 /*---------------------------
@@ -186,6 +189,7 @@ Responsive Styles for header
 
   .bg-banner {
     width: 100%;
+    height: 700px;
     border-radius: 0;
   }
   .bg-banner::before {
@@ -221,9 +225,7 @@ Responsive Styles for header
     font-size: 22px;
     font-weight: 700;
     line-height: 26.4px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    color: #FFFFFC;
   }
   .bg-banner .text p {
     width: 76%;
@@ -232,9 +234,7 @@ Responsive Styles for header
     font-weight: 400;
     line-height: 22.4px;
     letter-spacing: 0.02em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    color: #FFFFFC;
   }
 }
 
@@ -293,7 +293,7 @@ Responsive Styles for header
 .booking {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Space out elements */
+  justify-content: space-between; 
   width: 100%;
   background-color: #fffffc;
   box-shadow: 0px 4px 37px 0px #00000026;
@@ -304,7 +304,12 @@ Responsive Styles for header
 
 .btn-booking {
   background-color: #1576d6;
-  color: white;
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #FFFFFC;
   padding: 12px 18px;
   border: none;
   border-radius: 6px;
@@ -376,7 +381,22 @@ Responsive Styles for booking
   width: 100%;
   padding: 10px;
 }
+
+.warning-container p {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
 .warning-container span {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.02em;
   color: #1576d6;
 }
 
@@ -386,7 +406,7 @@ Responsive Styles for warning
 
 @media (max-width: 992px) {
   .warning {
-    margin: 20px 10px;
+    margin: 20px 16px;
   }
   .warning-container {
     height: 53px;
@@ -397,9 +417,7 @@ Responsive Styles for warning
     font-weight: 400;
     line-height: 19.6px;
     letter-spacing: 0.02em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    color: #333333;
   }
 }
 
@@ -407,67 +425,799 @@ Responsive Styles for warning
   ------TESTIMONIAL SECTION--------
   ****************************/
 
-
 .testimonal {
-    margin-top: 50px;
+  margin-top: 50px;
+}
+.testimonal h1 {
+  font-family: Barlow;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 45px;
+  color: #25292C;
+}
+.testimonal-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  margin-top: 43px;
 }
 
-.testimonal-container{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    gap: 20px;
-    padding: 15px;
-    margin-top: 43px;
+.testimonal-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.testimonal-card{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    
+.testimonal-card img {
+  width: 50px;
 }
 
-.testimonal-card img{
-    width: 50px;
+.testimonal-content {
+  margin-top: 27px;
 }
 
-.testimonal-content{
-    max-width: 260px;
-    margin-top: 27px;
+.testimonal-content h2 {
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  color: #25292C;
 }
 
-.testimonal-content p{
-    margin-top: 14px;
+.testimonal-content p {
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color:#25292C ;  
+  max-width: 230px;
+  margin-top: 14px;
 }
-
 
 /*---------------------------
 Responsive Styles for testimonaling
 ---------------------------*/
 
 @media (max-width: 992px) {
-    .testimonal{
-        margin: 20px 10px;
-    }
-    .testimonal-container{
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        padding: 10px;
-        margin-top: 16px;
-    }   
+  .testimonal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    .testimonal-card{
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        text-align: center;
-        padding: 10px;
-    }
+    margin: 20px 16px;
+  }
+  .testimonal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 16px;
+  }
 
-    .testimonal-content{
-        margin-top: 24px;
-    }
+  .testimonal-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .testimonal-content p {
+    text-align: center;
+    margin-top: 24px;
+  }
+}
+
+/****************************
+  ------VACATION SECTION--------
+  ****************************/
+
+.vacation {
+  margin-top: 60px;
+}
+
+.header-vacation {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 610px;
+}
+
+.header-vacation h1{
+  font-family: Barlow;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.6px;
+  color: #25292C;
+}
+
+.header-vacation p{
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+.vacation-containers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.vacation-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.vacation-image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.vacation-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vacation-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 14px;
+  gap: 6px;
+  font-family: Barlow;
+}
+
+
+.vacation-content h2 {
+  font-family: Barlow;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #25292C;
+}
+
+.vacation-content p {
+  font-family: Barlow;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 0.02em;
+  color: #25292C;
+}
+
+/*---------------------------
+Responsive Styles for vacation
+---------------------------*/
+
+@media (max-width: 992px) {
+  .vacation {
+    margin: 20px 16px;
+  }
+
+  .vacation-containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .vacation-container {
+    width: 100%;
+  }
+  .vacation-image-container {
+    height: auto;
+  }
 
 }
+
+/****************************
+  ------TRIP SECTION--------
+  ****************************/
+
+.trip {
+  margin-top: 60px;
+}
+
+.trip h1 {
+  font-family: Barlow;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.6px;
+  color: #25292C;
+}
+
+.trip-containers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.trip-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.trip-image-container {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.trip-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trip-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: Barlow;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+.trip-content h2 {
+  font-family: Barlow;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #fffffc;
+}
+
+.trip-content p {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.02em;
+  color: #fffffc;
+}
+
+/*---------------------------
+Responsive Styles for trip
+---------------------------*/
+
+@media (max-width: 992px) {
+  .trip {
+    margin: 20px 16px;
+  }
+
+  .trip-containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .trip-container {
+    width: 100%;
+  }
+  .trip-image-container {
+    height: auto;
+  }
+}
+
+/****************************
+  ------HOTEL SECTION--------
+  ****************************/
+
+.hotel {
+  margin-top: 60px;
+}
+.hotel h1 {
+  font-family: Barlow;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.6px;
+  color: #25292C;
+}
+.hotel-containers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.hotel-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.hotel-image-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.hotel-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hotel-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-family: Barlow;
+  margin-top: 14px;
+}
+
+.hotel-content h2 {
+  font-family: Barlow;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #25292C;
+}
+
+.hotel-content p {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.02em;
+  color: #25292C;
+}
+
+/*---------------------------
+Responsive Styles for trip
+---------------------------*/
+
+@media (max-width: 992px) {
+  .hotel {
+    margin: 20px 16px;
+  }
+
+  .hotel-containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .hotel-container {
+    width: 100%;
+  }
+  .hotel-image-container {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+/****************************
+  ------TRIP-RAOD-MAP SECTION--------
+  ****************************/
+
+.trip-road-map {
+  margin-top: 60px;
+  padding: 0 20px;
+}
+
+.header-road-map {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.header-road-map h1 {
+  font-family: Barlow;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 45px;
+  color: #25292C;
+}
+.header-road-map p{
+  font-family: Barlow;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 28.13px;
+
+  color: #25292C;
+}
+.road-map-containers {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 450px;
+  border-radius: 12px;
+}
+
+.left-section {
+  flex: 1.5;  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.middle-section {
+  flex: 2; 
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.right-section {
+  flex: 2.5;  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.left-container {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  height: calc((100% - 20px) / 2);
+}
+
+.left-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.middle-section {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 50%;
+  flex: 3;
+}
+
+.middle-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.rectangle-right-container {
+  height: calc((100% - 20px) / 2);
+  border-radius: 12px;
+}
+
+.rectangle-right-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.two-right-container {
+  display: flex;
+  gap: 20px;
+  height: calc((100% - 20px) / 2);
+  border-radius: 12px;
+}
+
+.c1-r-c {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.c1-r-c:first-child {
+  flex: 1;
+}
+
+.c1-r-c:last-child {
+  flex: 1.2;
+}
+
+.c1-r-c img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.left-container,
+.middle-section,
+.rectangle-right-container,
+.c1-r-c {
+  position: relative;
+  border-radius: 12px;
+}
+
+.left-container::before,
+.middle-section::before,
+.rectangle-right-container::before,
+.c1-r-c::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(180deg, rgba(5, 7, 60, 0) 0%, #05073c 100%);
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+  border-radius: 12px;
+}
+
+.left-container::after,
+.middle-section::after,
+.rectangle-right-container::after,
+.c1-r-c::after {
+  content: attr(data-title);
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #FFFFFC;
+  font-family: Barlow;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 30px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+/*---------------------------
+Responsive Styles for trip-road-map
+---------------------------*/
+@media (max-width: 992px) {
+  .road-map-containers {
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+
+  .left-section {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    gap: 20px;
+    width: 100%; 
+  }
+
+  .middle-section {
+    width: 100%; 
+    aspect-ratio: 16/9; 
+  }
+
+  .left-container {
+    height: 200px;
+  }
+
+  .left-container:first-child {
+    flex: 1;
+  }
+
+  .left-container:last-child {
+    flex: 2;
+  }
+
+  .right-section {
+    flex-direction: column-reverse;
+  }
+
+  .two-right-container {
+    display: flex;
+    gap: 20px;
+    height: 200px;
+  }
+
+  .c1-r-c {
+    height: 100%;
+  }
+
+  .c1-r-c:first-child {
+    flex: 2;
+  }
+
+  .c1-r-c:last-child {
+    flex: 1;
+  }
+}
+
+
+.footprint{
+  margin-top: 60px;
+}
+
+.footprint-containers{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 91px;
+}
+
+.footprint-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.footprint-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footprint h1{
+  font-family: Barlow;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 45px;
+  color: #25292C;
+  text-transform: capitalize;
+}
+.footprint-content h2{
+  font-family: Barlow;
+  font-size: 37.66px;
+  font-weight: 700;
+  line-height: 45.19px;
+
+  color: #25292C;
+}
+.footprint-content p{
+  font-family: Barlow;
+  font-size: 14.65px;
+  font-weight: 400;
+  line-height: 17.58px;
+  color: #25292C;
+}
+@media (max-width: 992px) {
+
+  .footprint{
+    text-align: center;
+  }
+
+  .footprint-containers{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 32px;
+  }
+}
+
+
+
+
+.bg-container{
+  background-image: url("./images/beach.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg-container::before{
+  content: "";
+  position: absolute;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+  border-radius: 8px;
+}
+
+.bg-container img{
+  position: absolute;
+  width: 719.71px;
+  height: 407px;
+  top: -37px;
+  right:  0px;
+  overflow: hidden;
+  object-fit: cover;
+  transform: rotate(-15deg);
+}
+
+.article-content{
+  width: 100%;
+  max-width: 580px;
+  padding: 69px 64px;
+  z-index: 1;
+}
+.article-content h2{
+  font-family: Barlow;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 39.2px;
+  color: #FFFFFC;
+}
+.article-content button{
+  width: 181px;
+  height: 44px;
+  padding: 12px 18px;
+  border: none;
+  background-color:#1576D6;
+  gap: 10px;
+  border-radius: 6px;
+  font-family: Barlow;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+
+  color: #FFFFFC;
+  margin-top: 30px;
+}
+
+
+
+.article-content h2{
+  font-family: Barlow;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 39.2px;
+
+  color: #FFFFFC;
+  
+}
+
+@media (max-width: 992px) {
+
+  article{
+    margin: 20px 16px;
+  }
+
+  .bg-container{
+    width: 100%;
+    height: 212px;
+  }
+  .bg-container img{
+    display: none;
+  }
+
+  .article-content {
+    padding: 12px;
+  }
+
+  .article-content h2{
+    font-family: Barlow;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+
+    
+  }
+}
+
+/* .footer-header {
+  font-family: Barlow;
+} */
