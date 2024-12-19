@@ -10,7 +10,10 @@
 body {
   min-height: 100vh;
   display: flex;
+  align-items: center;
   justify-content: center;
+  background-color: #f8f9fa;
+  flex-direction: column;
 }
 
 .container {
@@ -189,8 +192,9 @@ Responsive Styles for header
 
   .bg-banner {
     width: 100%;
-    height: 700px;
+    height: 1100px;
     border-radius: 0;
+    background-position-x: -170px;
   }
   .bg-banner::before {
     border-radius: 0;
@@ -215,7 +219,6 @@ Responsive Styles for header
     width: 100%;
     color: white;
     gap: 20px;
-    text-align: justify;
     justify-content: flex-end;
     height: 100%;
     padding: 16px;
@@ -225,6 +228,7 @@ Responsive Styles for header
     font-size: 22px;
     font-weight: 700;
     line-height: 26.4px;
+    text-align: left;
     color: #fffffc;
   }
   .bg-banner .text p {
@@ -234,6 +238,7 @@ Responsive Styles for header
     font-weight: 400;
     line-height: 22.4px;
     letter-spacing: 0.02em;
+    text-align: left;
     color: #fffffc;
   }
 }
@@ -1227,6 +1232,161 @@ Responsive Styles for article
   ------FOOTER SECTION--------
   ****************************/
 
-/* .footer-header {
+footer {
+  margin-top: 60px;
+  background-color: #fefcf1;
+}
+
+.full-width-footer {
+  width: 100%;
+}
+
+.footer-header {
   font-family: Barlow;
-} */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 80px;
+}
+
+.footer-header h1 {
+  font-family: Barlow;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 39.2px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #25292c;
+}
+
+.footer-header h2 {
+  font-family: Barlow;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fffffc;
+}
+
+.footer-header p {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #1576d6;
+}
+
+.link .blue {
+  color: #1576d6;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 18px 50px;
+}
+
+.head-content {
+  font-family: Barlow;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.head h1 {
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: 0.02em;
+  color: #25292c;
+}
+
+.head-content p {
+  font-family: Barlow;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 0.02em;
+  margin-left: 28px;
+  color: #6c757d;
+}
+
+.link-title {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.link {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.link h2 {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: 0.02em;
+  color: #25292c;
+}
+
+.link a {
+  text-decoration: none;
+  font-family: Barlow;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 0.02em;
+  color: #6c757d;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  background-color: #f6f3ef;
+  height: 40px;
+  padding: 20px 205px;
+}
+
+.bottom-footer p {
+  font-family: Barlow;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #6c757d;
+}
+
+@media (max-width: 992px) {
+  .links {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .bottom-footer {
+    display: none;
+  }
+}
