@@ -1380,6 +1380,10 @@ footer {
   color: #6c757d;
 }
 
+/*---------------------------
+Responsive Styles for footer
+---------------------------*/
+
 @media (max-width: 992px) {
   .links {
     flex-direction: column;
